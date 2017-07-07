@@ -11,8 +11,10 @@ class App extends Component {
                     <img src={logo} className="App-logo" alt="logo" />
                     <h2>Welcome to Bazar Mixer</h2>
                 </div>
-                <Mixer />
-                <Mixer />
+                <div className="Mixers">
+                    <Mixer />
+                    <Mixer />
+                </div>
             </div>
         );
     }

@@ -1,0 +1,11 @@
+.Mixer {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.Mixer__slider {
+    width: 100%;
+}
